@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 
   @IBAction func openSDK() {
     let userSettings = UserSettings(userId: "snt-1", name: "Rathakit", currency: "THB")
-    let sdk = GedditLiveCommerce(appId: "36f08623-ecc2-459a-8396-b6e92e020f70", appSecret: "3ba86d94b39f0e3c6e90c55c931c5c2990521a39f51b652630b7b3a5e943a32f960fad7d", userSettings: userSettings, verbose: true, delegate: self, pipDelegate: self)
+    let sdk = GedditLiveCommerce(appId: "YOUR_APP_ID", appSecret: "YOUR_APP_SECRET", userSettings: userSettings, verbose: true, delegate: self, pipDelegate: self)
     sdk.present(from: self)
   }
 }
