@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/gedditlive/GedditSDK.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'EcommerceExample' do
+  use_frameworks!
+
+  pod 'GedditCoreSDK', '1.2.0'
+  pod 'GedditCommerceSDK', '1.8.0'
+  
+#  pod 'Firebase/Analytics'
+
+end

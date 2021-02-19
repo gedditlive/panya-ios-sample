@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>364759142973-fb17i14894etvdfrs8u45kuhfi33nr2b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.364759142973-fb17i14894etvdfrs8u45kuhfi33nr2b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD6afbHMBpcPoX7nfG3h3LuAWEkeb4M2jw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>364759142973</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gedditinteractive.commerce.live</string>
+	<key>PROJECT_ID</key>
+	<string>geddit-live-internal</string>
+	<key>STORAGE_BUCKET</key>
+	<string>geddit-live-internal.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:364759142973:ios:e0212282f34c5aa5dd5054</string>
+	<key>DATABASE_URL</key>
+	<string>https://geddit-live-internal.firebaseio.com</string>
+</dict>
+</plist>

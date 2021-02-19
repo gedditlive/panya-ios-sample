@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - DeviceKit (3.2.0)
+  - GedditCommerceSDK (1.8.0):
+    - DeviceKit
+    - GedditCoreSDK
+    - SDWebImage
+  - GedditCoreSDK (1.2.0):
+    - Alamofire (~> 4.9.0)
+    - AlamofireImage
+    - ObjectMapper
+    - Socket.IO-Client-Swift
+  - ObjectMapper (4.2.0)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+
+DEPENDENCIES:
+  - GedditCommerceSDK (= 1.8.0)
+  - GedditCoreSDK (= 1.2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireImage
+    - DeviceKit
+    - ObjectMapper
+    - SDWebImage
+    - Socket.IO-Client-Swift
+    - Starscream
+  https://github.com/gedditlive/GedditSDK.git:
+    - GedditCommerceSDK
+    - GedditCoreSDK
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  DeviceKit: d081659419cce07c0b5239dbc9fb39ed7413c7fe
+  GedditCommerceSDK: f4940fc3a8f30ff36c48f4ee56bc90a752c0dea5
+  GedditCoreSDK: 86b751516a6d4659c4c1b0c3a110cdc21e351413
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+
+PODFILE CHECKSUM: 224a454be59083298cf85163fa95d9f80b668193
+
+COCOAPODS: 1.10.1
