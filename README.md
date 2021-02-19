@@ -3,6 +3,7 @@
 * [Get Started](#get-started)
 	* [Installation](#installation)
 		* [Cocoapods](#cocoapods)
+	* [Credential](#credential)
 	* [Running](#running)
 * [Documentation](#documentation)
 * [Requirements](#requirements)
@@ -24,6 +25,15 @@ pod install
 ```
 
 Run `pod update` to get the latest `GedditCommerceSDK`.
+
+### Credential
+
+You need to add your app id and secret to be able to access to the features.
+
+*EcommerceExample/EcommerceExample/ViewController.swift:*
+```
+let sdk = GedditLiveCommerce(appId: "YOUR_APP_ID", appSecret: "YOUR_APP_SECRET", userSettings: userSettings, verbose: true, delegate: self, pipDelegate: self)
+```
 
 ### Running
 
