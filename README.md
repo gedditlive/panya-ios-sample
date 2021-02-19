@@ -28,7 +28,7 @@ Run `pod update` to get the latest `GedditCommerceSDK`.
 
 ### Credential
 
-You need to add your app id and secret to be able to access to the features.
+You need to update `ViewController.swift` file and add your app id and secret to be able to access to the features.
 
 *EcommerceExample/EcommerceExample/ViewController.swift:*
 ```
